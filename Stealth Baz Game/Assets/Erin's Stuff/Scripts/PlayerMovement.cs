@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
+    public Light plight;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
@@ -17,12 +18,11 @@ public class PlayerMovement : MonoBehaviour
     public Vector3 velocity;
     public bool isGrounded = false;
     public bool issprint = false;
-    public bool iscrouch = false;   
+    public bool iscrouch = false;
 
-    void Start()
-    {
-        
-    }
+    public SphereCollider SprintCollider;
+
+   
 
     // Update is called once per frame
     void Update()
@@ -58,12 +58,40 @@ public class PlayerMovement : MonoBehaviour
             print("space key was pressed");
             issprint = true;
             speed = 18;
+            SprintCollider.radius = 18;
+            plight.innerSpotAngle = 120;
+            plight.spotAngle = 170;
+
         }
         if(Input.GetKeyUp(KeyCode.LeftShift))
         {
             print("space key was  noT N ONFASONFO ASDNFO lOLpressed");
             issprint = false;
             speed = 12;
+            SprintCollider.radius = 6;
+            plight.innerSpotAngle = 85;
+            plight.spotAngle = 97;
+
+        }
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            iscrouch = true;
+            speed = 6;
+
+            SprintCollider.radius = 0.2f;
+            plight.innerSpotAngle = 10;
+            plight.spotAngle = 10;
+
+        }
+        if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            iscrouch = true;
+            speed = 12;
+            SprintCollider.radius = 6f;
+
+            plight.spotAngle = 97;
+            plight.innerSpotAngle = 85;
+
         }
     }
 

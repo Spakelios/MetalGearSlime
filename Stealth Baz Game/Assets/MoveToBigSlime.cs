@@ -1,10 +1,10 @@
-using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.AI;
-
-public class MoveTo : MonoBehaviour
+public class MoveToBigSlime : MonoBehaviour
 {
+
     private Material material;
     public GameObject player;
     // public Transform goal;
@@ -20,13 +20,13 @@ public class MoveTo : MonoBehaviour
     public float maxsearchtime;
     public Color basecolour;
 
-   
 
-   
+
+
 
     private void Start()
     {
-        var renderer = GetComponent<MeshRenderer>();
+        var renderer = GetComponent<SkinnedMeshRenderer>();
         material = Instantiate(renderer.sharedMaterial);
         renderer.material = material;
         searchtime = maxsearchtime;
@@ -35,12 +35,12 @@ public class MoveTo : MonoBehaviour
         player = GameObject.FindGameObjectWithTag(tagtodetect);
         agent = GetComponent<NavMeshAgent>();
 
-        
+
     }
 
     private void OnDestroy()
     {
-        if (material!=null)
+        if (material != null)
         {
             Destroy(material);
         }
@@ -68,7 +68,7 @@ public class MoveTo : MonoBehaviour
             case "Idle":
                 // NavMeshAgent agent = GetComponent<NavMeshAgent>();
                 agent.destination = StartPosition;
-                material.SetColor("Colour", basecolour) ;
+                material.SetColor("Colour", basecolour);
 
 
                 break;
@@ -84,7 +84,7 @@ public class MoveTo : MonoBehaviour
 
                     animator.SetBool("FoundPlayer", true);
                     losetime = 600;
-                    
+
                 }
 
 
@@ -125,24 +125,24 @@ public class MoveTo : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
+
         if (other.gameObject.CompareTag("Player"))
         {
-         
+
             animator.SetBool("FoundPlayer", true);
 
 
             material.SetColor("Colour", Color.red);
             State = "Chase";
             agent.stoppingDistance = 0f;
-            
+
 
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        
+
         if (other.gameObject.CompareTag("Player"))
         {
             State = "LosingPlayer";
@@ -151,6 +151,7 @@ public class MoveTo : MonoBehaviour
         }
     }
 
-   
+
 
 }
+
