@@ -68,7 +68,7 @@ public class MoveTo : MonoBehaviour
             case "Idle":
                 // NavMeshAgent agent = GetComponent<NavMeshAgent>();
                 agent.destination = StartPosition;
-                material.SetColor("Colour", basecolour) ;
+                material.SetColor("FColour", basecolour) ;
 
 
                 break;
@@ -93,7 +93,7 @@ public class MoveTo : MonoBehaviour
             case "Searching":
                 if (searchtime == maxsearchtime)
                 {
-                    material.SetColor("Colour", Color.yellow);
+                    material.SetColor("FColour", Color.yellow);
                     StartCoroutine(SearchingForPlayer());
                     Debug.Log("only once");
                 }
@@ -132,7 +132,7 @@ public class MoveTo : MonoBehaviour
             animator.SetBool("FoundPlayer", true);
 
 
-            material.SetColor("Colour", Color.red);
+            material.SetColor("FColour", Color.red);
             State = "Chase";
             agent.stoppingDistance = 0f;
             

@@ -20,6 +20,8 @@ public class MoveToBigSlime : MonoBehaviour
     public float maxsearchtime;
     public Color basecolour;
 
+    public GameObject HeldEye;
+
 
 
 
@@ -90,7 +92,7 @@ public class MoveToBigSlime : MonoBehaviour
 
                 break;
 
-            case "Searching":
+            case "EyeFind":
                 if (searchtime == maxsearchtime)
                 {
                     material.SetColor("Colour", Color.yellow);
