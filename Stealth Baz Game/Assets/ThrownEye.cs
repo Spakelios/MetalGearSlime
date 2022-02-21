@@ -18,6 +18,7 @@ public class ThrownEye : MonoBehaviour
         material.SetColor("Colour", Color.yellow);
         material.SetColor("FColour", Color.yellow);
         eyelight.color = (Color.yellow);
+
     }
 
     private void OnTriggerEnter(Collider other)

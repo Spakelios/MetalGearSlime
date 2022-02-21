@@ -170,12 +170,12 @@ MonoBehaviour:
   m_Data:
     m_ConstrainedObject: {fileID: 2888930135894049495}
     m_SourceObjects:
-      m_Length: 1
+      m_Length: 2
       m_Item0:
         transform: {fileID: 1932331059}
         weight: 1
       m_Item1:
-        transform: {fileID: 0}
+        transform: {fileID: 534040789}
         weight: 0
       m_Item2:
         transform: {fileID: 0}
@@ -330,12 +330,12 @@ MonoBehaviour:
   m_Data:
     m_ConstrainedObject: {fileID: 3828461510889030259}
     m_SourceObjects:
-      m_Length: 1
+      m_Length: 2
       m_Item0:
         transform: {fileID: 1932331059}
         weight: 1
       m_Item1:
-        transform: {fileID: 0}
+        transform: {fileID: 534040789}
         weight: 0
       m_Item2:
         transform: {fileID: 0}
@@ -417,12 +417,12 @@ MonoBehaviour:
   m_Data:
     m_ConstrainedObject: {fileID: 521589136351550168}
     m_SourceObjects:
-      m_Length: 1
+      m_Length: 2
       m_Item0:
         transform: {fileID: 1932331059}
         weight: 1
       m_Item1:
-        transform: {fileID: 0}
+        transform: {fileID: 534040789}
         weight: 0
       m_Item2:
         transform: {fileID: 0}
@@ -482,7 +482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503271085}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.37, z: 0}
+  m_LocalPosition: {x: 0, y: 1.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1932331059}
@@ -565,10 +565,9 @@ GameObject:
   - component: {fileID: 534040785}
   - component: {fileID: 534040784}
   - component: {fileID: 534040790}
-  - component: {fileID: 534040791}
   m_Layer: 0
   m_Name: Eye
-  m_TagString: Untagged
+  m_TagString: Eye
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -693,19 +692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BigSlime: {fileID: 919132148938807985}
---- !u!135 &534040791
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534040783}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2
-  m_Center: {x: 0, y: 0, z: 0}
+  eyelight: {fileID: 611578732}
 --- !u!1 &536549427 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1f46591f77993c64f95fc37bee2262bf, type: 3}
@@ -1434,12 +1421,12 @@ MonoBehaviour:
   m_Data:
     m_ConstrainedObject: {fileID: 5249340074168343191}
     m_SourceObjects:
-      m_Length: 1
+      m_Length: 2
       m_Item0:
         transform: {fileID: 1932331059}
         weight: 1
       m_Item1:
-        transform: {fileID: 0}
+        transform: {fileID: 534040789}
         weight: 0
       m_Item2:
         transform: {fileID: 0}
@@ -1837,12 +1824,12 @@ MonoBehaviour:
   m_Data:
     m_ConstrainedObject: {fileID: 6791730105902198453}
     m_SourceObjects:
-      m_Length: 1
+      m_Length: 2
       m_Item0:
         transform: {fileID: 1932331059}
         weight: 1
       m_Item1:
-        transform: {fileID: 0}
+        transform: {fileID: 534040789}
         weight: 0
       m_Item2:
         transform: {fileID: 0}
@@ -1993,7 +1980,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &1932331055
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2213,6 +2200,7 @@ GameObject:
   - component: {fileID: 919132148938807986}
   - component: {fileID: 919132148938807991}
   - component: {fileID: 919132148938807990}
+  - component: {fileID: 919132148938807992}
   m_Layer: 0
   m_Name: bigslimyactuallyowrk
   m_TagString: Untagged
@@ -2258,11 +2246,13 @@ MonoBehaviour:
   agent: {fileID: 919132148938807988}
   animator: {fileID: 919132148938807986}
   playerseen: 0
-  losetime: 9999
-  searchtime: 9999
-  maxsearchtime: 9999
+  losetime: 600
+  searchtime: 600
+  maxsearchtime: 600
   basecolour: {r: 0, g: 0, b: 0, a: 0}
+  isholdingeye: 0
   HeldEye: {fileID: 1932331054}
+  ThrownEye: {fileID: 534040783}
 --- !u!195 &919132148938807988
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2389,6 +2379,19 @@ MonoBehaviour:
   - m_Rig: {fileID: 2114253851}
     m_Active: 1
   m_Effectors: []
+--- !u!135 &919132148938807992
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148938807985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: -0.059987877, y: 0.8074118, z: -0.14}
 --- !u!1 &1160272933593060392
 GameObject:
   m_ObjectHideFlags: 0

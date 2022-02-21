@@ -20,7 +20,10 @@ public class MoveToBigSlime : MonoBehaviour
     public float maxsearchtime;
     public Color basecolour;
 
+    public bool isholdingeye;
+
     public GameObject HeldEye;
+    public GameObject ThrownEye;
 
 
 
@@ -71,6 +74,7 @@ public class MoveToBigSlime : MonoBehaviour
                 // NavMeshAgent agent = GetComponent<NavMeshAgent>();
                 agent.destination = StartPosition;
                 material.SetColor("Colour", basecolour);
+                animator.SetBool("HasEye", true);
 
 
                 break;
@@ -81,10 +85,10 @@ public class MoveToBigSlime : MonoBehaviour
                 losetime -= 1;
                 if (losetime <= 0)
                 {
-                    State = "Searching";
+                    State = "EyeFind";
                     agent.stoppingDistance = 0f;
 
-                    animator.SetBool("FoundPlayer", true);
+                   // animator.SetBool("FoundPlayer", true);
                     losetime = 600;
 
                 }
@@ -96,18 +100,18 @@ public class MoveToBigSlime : MonoBehaviour
                 if (searchtime == maxsearchtime)
                 {
                     material.SetColor("Colour", Color.yellow);
-                    StartCoroutine(SearchingForPlayer());
+                    StartCoroutine(SearchingForEye());
                     Debug.Log("only once");
                 }
-                searchtime -= 1;
-                if (searchtime <= 0)
-                {
-                    State = "Idle";
-                    agent.stoppingDistance = 3f;
-
-                    animator.SetBool("FoundPlayer", false);
-                    searchtime = maxsearchtime;
-                }
+                //searchtime -= 1;
+               // if (searchtime <= 0)
+               // {
+               //     State = "Idle";
+               //     agent.stoppingDistance = 3f;
+               //
+               //     animator.SetBool("FoundPlayer", false);
+              //      searchtime = maxsearchtime;
+              //  }
                 break;
         }
 
@@ -118,27 +122,51 @@ public class MoveToBigSlime : MonoBehaviour
     }
 
 
-    IEnumerator SearchingForPlayer()
+    IEnumerator SearchingForEye()
     {
-        yield return new WaitForSeconds(2f);
-        agent.destination = player.gameObject.transform.position + new Vector3(Random.Range(-10, 10), 0, Random.Range(-10, 10));
+        if (ThrownEye.activeSelf == true);
+        { 
+            tagtodetect = "Eye";
+        player = GameObject.FindGameObjectWithTag(tagtodetect);
+       
+        
+            yield return new WaitForSeconds(2f);
+            agent.destination = player.gameObject.transform.position;
+        }
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && isholdingeye == true);
         {
+            isholdingeye = false;
+            tagtodetect = "Player";
+            player = GameObject.FindGameObjectWithTag(tagtodetect);
 
-            animator.SetBool("FoundPlayer", true);
+            animator.SetBool("HasEye", false);
 
 
             material.SetColor("Colour", Color.red);
-            State = "Chase";
+            HeldEye.gameObject.SetActive(false);
+            ThrownEye.gameObject.transform.position = HeldEye.transform.position + Vector3.forward * 3;
+            ThrownEye.gameObject.SetActive(true);
+            
+            //State = "Chase";
             agent.stoppingDistance = 0f;
 
 
+        }
+
+        if (other.gameObject.CompareTag("Eye"))
+        {
+            isholdingeye = false;
+            State = "Idle";
+            HeldEye.SetActive(true);
+            animator.SetBool("HasEye", true);
+            losetime = 600;
+            other.gameObject.SetActive(false);
         }
     }
 
