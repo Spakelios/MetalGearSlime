@@ -139,8 +139,8 @@ GameObject:
   m_Name: Maze Wall (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &118482907
 BoxCollider:
@@ -234,8 +234,8 @@ GameObject:
   m_Name: Maze Wall (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &138186752
 Transform:
@@ -329,8 +329,8 @@ GameObject:
   m_Name: Maze Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &156063109
 BoxCollider:
@@ -424,8 +424,8 @@ GameObject:
   m_Name: Maze Wall (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &175108019
 BoxCollider:
@@ -594,8 +594,8 @@ GameObject:
   m_Name: Maze Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &209839891
 BoxCollider:
@@ -694,8 +694,8 @@ GameObject:
   m_Name: Maze Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &239149912
 BoxCollider:
@@ -789,8 +789,8 @@ GameObject:
   m_Name: Maze Wall (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &258567242
 Transform:
@@ -884,8 +884,8 @@ GameObject:
   m_Name: Maze Wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &298084395
 BoxCollider:
@@ -979,8 +979,8 @@ GameObject:
   m_Name: Maze Wall (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &301835442
 BoxCollider:
@@ -1074,8 +1074,8 @@ GameObject:
   m_Name: Maze Wall (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &308257934
 BoxCollider:
@@ -1169,8 +1169,8 @@ GameObject:
   m_Name: Maze Wall (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &308367835
 BoxCollider:
@@ -1342,8 +1342,8 @@ GameObject:
   m_Name: Maze Wall (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &396094867
 BoxCollider:
@@ -1437,8 +1437,8 @@ GameObject:
   m_Name: Maze Wall (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &398577945
 BoxCollider:
@@ -1532,8 +1532,8 @@ GameObject:
   m_Name: Maze Wall (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &408488459
 Transform:
@@ -1627,8 +1627,8 @@ GameObject:
   m_Name: Maze Wall (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &426584245
 Transform:
@@ -1722,8 +1722,8 @@ GameObject:
   m_Name: Maze Wall (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &472937533
 Transform:
@@ -1817,8 +1817,8 @@ GameObject:
   m_Name: Maze Wall (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &489849525
 BoxCollider:
@@ -1903,6 +1903,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2642488624193553984, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
+      propertyPath: m_Speed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553985, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: player
       value: 
@@ -1933,7 +1937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2015533
+      value: 4.58
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1989,8 +1993,8 @@ GameObject:
   m_Name: Maze Wall (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &510419268
 BoxCollider:
@@ -2084,8 +2088,8 @@ GameObject:
   m_Name: Wall Edge N
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &523749088
 BoxCollider:
@@ -2179,8 +2183,8 @@ GameObject:
   m_Name: Wall Edge S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &532195560
 BoxCollider:
@@ -2274,8 +2278,8 @@ GameObject:
   m_Name: Maze Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &616037096
 BoxCollider:
@@ -2369,8 +2373,8 @@ GameObject:
   m_Name: Maze Wall (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &640606073
 BoxCollider:
@@ -2698,8 +2702,8 @@ GameObject:
   m_Name: Maze Wall (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &723411855
 BoxCollider:
@@ -2889,8 +2893,8 @@ GameObject:
   m_Name: Maze Wall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &731891501
 BoxCollider:
@@ -2984,8 +2988,8 @@ GameObject:
   m_Name: Maze Wall (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &759276371
 BoxCollider:
@@ -3079,8 +3083,8 @@ GameObject:
   m_Name: Maze Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &759824324
 BoxCollider:
@@ -3174,8 +3178,8 @@ GameObject:
   m_Name: Maze Wall (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &763332183
 BoxCollider:
@@ -3269,8 +3273,8 @@ GameObject:
   m_Name: Maze Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &840090565
 BoxCollider:
@@ -3364,8 +3368,8 @@ GameObject:
   m_Name: Maze Wall (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &853003277
 Transform:
@@ -3459,8 +3463,8 @@ GameObject:
   m_Name: Maze Wall (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &871540421
 BoxCollider:
@@ -3554,8 +3558,8 @@ GameObject:
   m_Name: Maze Wall (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &881791392
 BoxCollider:
@@ -3649,8 +3653,8 @@ GameObject:
   m_Name: Maze Wall (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &894749201
 Transform:
@@ -3744,8 +3748,8 @@ GameObject:
   m_Name: Maze Wall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &945072899
 BoxCollider:
@@ -3839,8 +3843,8 @@ GameObject:
   m_Name: Maze Wall (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &999143940
 Transform:
@@ -3934,8 +3938,8 @@ GameObject:
   m_Name: Maze Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1008953468
 BoxCollider:
@@ -4029,8 +4033,8 @@ GameObject:
   m_Name: Maze Wall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1028925359
 BoxCollider:
@@ -4145,11 +4149,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2015533
+      value: 4.43
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 178.78943
+      value: 182.41
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4201,8 +4205,8 @@ GameObject:
   m_Name: Maze Wall (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1078724227
 BoxCollider:
@@ -4296,8 +4300,8 @@ GameObject:
   m_Name: Maze Wall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1096682449
 BoxCollider:
@@ -4391,8 +4395,8 @@ GameObject:
   m_Name: Maze Wall (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1096976284
 BoxCollider:
@@ -4486,8 +4490,8 @@ GameObject:
   m_Name: Maze Wall (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1109058590
 BoxCollider:
@@ -4578,7 +4582,7 @@ GameObject:
   m_Name: Aaaa (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1151184970
@@ -4613,8 +4617,8 @@ GameObject:
   m_Name: Maze Wall (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1200158317
 BoxCollider:
@@ -4708,8 +4712,8 @@ GameObject:
   m_Name: Maze Wall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1228777474
 Transform:
@@ -4803,8 +4807,8 @@ GameObject:
   m_Name: Maze Wall (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1231905904
 BoxCollider:
@@ -4898,8 +4902,8 @@ GameObject:
   m_Name: Maze Wall (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1295250934
 Transform:
@@ -4993,8 +4997,8 @@ GameObject:
   m_Name: Maze Wall (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1296488933
 BoxCollider:
@@ -5088,8 +5092,8 @@ GameObject:
   m_Name: Maze Wall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1313688332
 Transform:
@@ -5183,8 +5187,8 @@ GameObject:
   m_Name: Maze Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1314554799
 BoxCollider:
@@ -5278,8 +5282,8 @@ GameObject:
   m_Name: Maze Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1351935692
 BoxCollider:
@@ -5373,8 +5377,8 @@ GameObject:
   m_Name: Maze Wall (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1362753846
 BoxCollider:
@@ -5468,8 +5472,8 @@ GameObject:
   m_Name: Wall Edge E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1367133879
 BoxCollider:
@@ -5554,6 +5558,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2642488624193553984, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
+      propertyPath: m_Speed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553985, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: player
       value: 
@@ -5584,7 +5592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2015533
+      value: 4.45
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5775,8 +5783,8 @@ GameObject:
   m_Name: Maze Wall (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1407020253
 Transform:
@@ -5870,8 +5878,8 @@ GameObject:
   m_Name: Maze Wall (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1502155759
 BoxCollider:
@@ -6186,8 +6194,8 @@ GameObject:
   m_Name: Wall Edge W
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1596177933
 BoxCollider:
@@ -6281,8 +6289,8 @@ GameObject:
   m_Name: Maze Wall (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1601217190
 BoxCollider:
@@ -6376,8 +6384,8 @@ GameObject:
   m_Name: Maze Wall (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1604751042
 BoxCollider:
@@ -6471,8 +6479,8 @@ GameObject:
   m_Name: Maze Wall (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1613320679
 BoxCollider:
@@ -6566,8 +6574,8 @@ GameObject:
   m_Name: Maze Wall (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1627103912
 BoxCollider:
@@ -6740,8 +6748,8 @@ GameObject:
   m_Name: Maze Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1641800073
 BoxCollider:
@@ -6826,6 +6834,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2642488624193553984, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
+      propertyPath: m_Speed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553985, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: player
       value: 
@@ -6852,15 +6864,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.8
+      value: 1.72
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2015533
+      value: 4.68
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 87.6
+      value: 95.29
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6912,8 +6924,8 @@ GameObject:
   m_Name: Maze Wall (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1671551267
 BoxCollider:
@@ -7007,8 +7019,8 @@ GameObject:
   m_Name: Maze Wall (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1712849284
 BoxCollider:
@@ -7102,8 +7114,8 @@ GameObject:
   m_Name: Maze Wall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1750297122
 Transform:
@@ -7197,8 +7209,8 @@ GameObject:
   m_Name: Maze Wall (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1752175158
 BoxCollider:
@@ -7292,8 +7304,8 @@ GameObject:
   m_Name: Maze Wall (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1753304989
 BoxCollider:
@@ -7387,8 +7399,8 @@ GameObject:
   m_Name: Maze Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1764242132
 BoxCollider:
@@ -7558,8 +7570,8 @@ GameObject:
   m_Name: Maze Wall (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1807845908
 BoxCollider:
@@ -7653,8 +7665,8 @@ GameObject:
   m_Name: Maze Wall (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1839936770
 BoxCollider:
@@ -7748,8 +7760,8 @@ GameObject:
   m_Name: Maze Wall (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1867044509
 BoxCollider:
@@ -7834,6 +7846,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2642488624193553984, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
+      propertyPath: m_Speed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553985, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: player
       value: 
@@ -7864,7 +7880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2015533
+      value: 4.66
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7911,6 +7927,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2642488624193553984, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
+      propertyPath: m_Speed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553985, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: player
       value: 
@@ -7941,7 +7961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2015533
+      value: 4.65
       objectReference: {fileID: 0}
     - target: {fileID: 2642488624193553990, guid: 7605c3fac26e62b489d8f70fd8057820, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7997,8 +8017,8 @@ GameObject:
   m_Name: Maze Wall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1916969798
 BoxCollider:
@@ -8092,8 +8112,8 @@ GameObject:
   m_Name: Maze Wall (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1979572357
 BoxCollider:
@@ -8187,8 +8207,8 @@ GameObject:
   m_Name: Maze Wall (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1980002942
 BoxCollider:
@@ -8282,8 +8302,8 @@ GameObject:
   m_Name: Maze Wall (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1981203281
 BoxCollider:
@@ -8377,8 +8397,8 @@ GameObject:
   m_Name: Maze Wall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2019073149
 BoxCollider:
@@ -8570,8 +8590,8 @@ GameObject:
   m_Name: Maze Wall (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2041381285
 BoxCollider:
@@ -8662,7 +8682,7 @@ GameObject:
   m_Name: Aaaa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2053663314
@@ -8706,8 +8726,8 @@ GameObject:
   m_Name: Maze Wall (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2054500954
 BoxCollider:
@@ -8801,8 +8821,8 @@ GameObject:
   m_Name: Maze Wall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2059309849
 BoxCollider:
@@ -8896,8 +8916,8 @@ GameObject:
   m_Name: Maze Wall (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2101628463
 BoxCollider:
@@ -8991,8 +9011,8 @@ GameObject:
   m_Name: Maze Wall (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2108828009
 BoxCollider:
@@ -9086,8 +9106,8 @@ GameObject:
   m_Name: Maze Wall (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2119977032
 BoxCollider:
@@ -9181,8 +9201,8 @@ GameObject:
   m_Name: Maze Wall (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2144940572
 BoxCollider:
