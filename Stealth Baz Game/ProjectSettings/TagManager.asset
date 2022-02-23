@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Eye
+  - Slime
+  - PlayerBody
   layers:
   - Default
   - TransparentFX

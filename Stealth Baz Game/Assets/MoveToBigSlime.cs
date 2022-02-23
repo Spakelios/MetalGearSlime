@@ -55,6 +55,7 @@ public class MoveToBigSlime : MonoBehaviour
     {
 
         EnemyState();
+        Debug.Log(isholdingeye);
     }
 
     void EnemyState()
@@ -124,10 +125,10 @@ public class MoveToBigSlime : MonoBehaviour
 
     IEnumerator SearchingForEye()
     {
-        if (ThrownEye.activeSelf == true);
+        if (ThrownEye.activeSelf == true)
         { 
             tagtodetect = "Eye";
-        player = GameObject.FindGameObjectWithTag(tagtodetect);
+            player = GameObject.FindGameObjectWithTag(tagtodetect);
        
         
             yield return new WaitForSeconds(2f);
@@ -139,29 +140,18 @@ public class MoveToBigSlime : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.CompareTag("Player") && isholdingeye == true);
-        {
-            isholdingeye = false;
-            tagtodetect = "Player";
-            player = GameObject.FindGameObjectWithTag(tagtodetect);
+       // if (other.gameObject.CompareTag("Player") && isholdingeye == true)
+        //{
+//
+  //          foundplayer();
+    //        
+    //
 
-            animator.SetBool("HasEye", false);
-
-
-            material.SetColor("Colour", Color.red);
-            HeldEye.gameObject.SetActive(false);
-            ThrownEye.gameObject.transform.position = HeldEye.transform.position + Vector3.forward * 3;
-            ThrownEye.gameObject.SetActive(true);
-            
-            //State = "Chase";
-            agent.stoppingDistance = 0f;
-
-
-        }
+      //  }
 
         if (other.gameObject.CompareTag("Eye"))
         {
-            isholdingeye = false;
+            isholdingeye = true;
             State = "Idle";
             HeldEye.SetActive(true);
             animator.SetBool("HasEye", true);
@@ -170,18 +160,35 @@ public class MoveToBigSlime : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
+   // private void OnTriggerExit(Collider other)
+   // {
+
+       // if (other.gameObject.CompareTag("Player"))
+        //{/
+          //  State = "LosingPlayer";
+
+        //    losetime = 600;
+      //  }
+  //  }
+
+    public void foundplayer()
     {
+        isholdingeye = false;
+        tagtodetect = "Player";
+        player = GameObject.FindGameObjectWithTag(tagtodetect);
 
-        if (other.gameObject.CompareTag("Player"))
-        {
-            State = "LosingPlayer";
+        animator.SetBool("HasEye", false);
 
-            losetime = 600;
-        }
+
+        material.SetColor("Colour", Color.red);
+        HeldEye.gameObject.SetActive(false);
+        ThrownEye.gameObject.transform.position = HeldEye.transform.position + this.transform.up * 2;
+        ThrownEye.gameObject.SetActive(true);
+
+
+        //State = "Chase";
+        agent.stoppingDistance = 0f;
     }
-
-
 
 }
 
