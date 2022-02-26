@@ -12,7 +12,7 @@ public class SlimeValue : MonoBehaviour
     private void OnTriggerEnter(Collider other)
 
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Slime"))
         {
             HitBySlime.instance.ChangeScore(slime);
         }
