@@ -7,6 +7,11 @@ public class retry : MonoBehaviour
 {
   public void reload()
   {
-    SceneManager.LoadScene("Rooms");
+    SceneManager.LoadScene("Erins Scene");
+  }
+
+  public void Ending()
+  {
+    Application.Quit();
   }
 }
