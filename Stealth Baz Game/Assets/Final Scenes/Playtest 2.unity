@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -955,7 +955,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_Name
-      value: Door (3)
+      value: Door (Red)
       objectReference: {fileID: 0}
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_NavMeshLayer
@@ -1036,7 +1036,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_Name
-      value: Door (2)
+      value: Green (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_NavMeshLayer
@@ -4157,7 +4157,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_Name
-      value: Door (6)
+      value: Green (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_NavMeshLayer
@@ -5373,7 +5373,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_Name
-      value: Door (7)
+      value: Door (Green 3)
       objectReference: {fileID: 0}
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_NavMeshLayer
@@ -6082,7 +6082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_Name
-      value: Door (8)
+      value: Final Door
       objectReference: {fileID: 0}
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_NavMeshLayer
@@ -7730,7 +7730,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_Name
-      value: Door (4)
+      value: Door (Yellow 2)
       objectReference: {fileID: 0}
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_NavMeshLayer
@@ -10893,7 +10893,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_Name
-      value: Door (1)
+      value: Door (Blue)
       objectReference: {fileID: 0}
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_NavMeshLayer
@@ -11651,7 +11651,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_Name
-      value: Door (5)
+      value: Door (Yellow 3)
       objectReference: {fileID: 0}
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_NavMeshLayer
@@ -11732,7 +11732,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_Name
-      value: Door
+      value: Door (Yellow 1)
       objectReference: {fileID: 0}
     - target: {fileID: 2895057355062716154, guid: 8ac282bbbcacf7448b6654aebe4d09af, type: 3}
       propertyPath: m_NavMeshLayer
