@@ -6,6 +6,7 @@ using UnityEngine;
 public class Final_Pressure_Plates : MonoBehaviour
 {
     public GameObject[] Light;
+    public AudioSource pressed;
 
     void Start()
     {
@@ -19,6 +20,7 @@ public class Final_Pressure_Plates : MonoBehaviour
     {
         if(other.gameObject.CompareTag("PlayerBody"))
         {
+            pressed.Play();
             foreach(GameObject light in Light)
             {
                 light.SetActive(true);
