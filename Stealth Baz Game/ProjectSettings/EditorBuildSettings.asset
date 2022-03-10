@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Kellie's Stuff/Scenes/Main Menu.unity
+    guid: 1beadc8817354d4468eebbcec7467bd5
+  - enabled: 1
+    path: Assets/Final Scenes/Final Build.unity
+    guid: 6d15332eaf7ea7341ac946eff9d0c515
   m_configObjects: {}

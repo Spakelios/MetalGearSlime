@@ -7,7 +7,7 @@ public class retry : MonoBehaviour
 {
   public void reload()
   {
-    SceneManager.LoadScene("Erins Scene");
+    SceneManager.LoadScene("Final Build");
   }
 
   public void Ending()

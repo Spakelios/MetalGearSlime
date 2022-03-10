@@ -8,6 +8,7 @@ TagManager:
   - Eye
   - Slime
   - PlayerBody
+  - victory
   layers:
   - Default
   - TransparentFX
