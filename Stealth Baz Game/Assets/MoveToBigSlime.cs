@@ -24,6 +24,8 @@ public class MoveToBigSlime : MonoBehaviour
 
     public GameObject HeldEye;
     public GameObject ThrownEye;
+    public AudioSource levelTheme;
+    public AudioSource chaseTheme;
 
 
 
@@ -92,6 +94,7 @@ public class MoveToBigSlime : MonoBehaviour
                    // animator.SetBool("FoundPlayer", true);
                     losetime = 600;
 
+
                 }
 
 
@@ -157,6 +160,8 @@ public class MoveToBigSlime : MonoBehaviour
             animator.SetBool("HasEye", true);
             losetime = 600;
             other.gameObject.SetActive(false);
+            chaseTheme.Stop();
+            levelTheme.Play();
         }
     }
 
@@ -184,7 +189,8 @@ public class MoveToBigSlime : MonoBehaviour
         HeldEye.gameObject.SetActive(false);
         ThrownEye.gameObject.transform.position = HeldEye.transform.position + this.transform.up * 2;
         ThrownEye.gameObject.SetActive(true);
-
+        chaseTheme.Play();
+        levelTheme.Stop();
 
         //State = "Chase";
         agent.stoppingDistance = 0f;
