@@ -130,9 +130,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803136590}
     m_Modifications:
+    - target: {fileID: 2636557017752837272, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
+      objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_Name
       value: SlimeSize (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444871, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_RootOrder
@@ -1698,9 +1706,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803136590}
     m_Modifications:
+    - target: {fileID: 2636557017752837272, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
+      objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_Name
       value: SlimeSize (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444871, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_RootOrder
@@ -3880,9 +3896,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803136590}
     m_Modifications:
+    - target: {fileID: 2636557017752837272, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
+      objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_Name
       value: SlimeSize (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444871, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_RootOrder
@@ -5310,6 +5334,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 905169545207591686, guid: e6bf482974b5d084295632db2b47c6d5, type: 3}
+      propertyPath: slimed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 905169545207591689, guid: e6bf482974b5d084295632db2b47c6d5, type: 3}
       propertyPath: m_Name
       value: Player
@@ -5833,9 +5861,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803136590}
     m_Modifications:
+    - target: {fileID: 2636557017752837272, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
+      objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_Name
       value: SlimeSize (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444871, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_RootOrder
@@ -6534,9 +6570,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803136590}
     m_Modifications:
+    - target: {fileID: 2636557017752837272, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
+      objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_Name
       value: SlimeSize (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444871, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_RootOrder
@@ -7366,9 +7410,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803136590}
     m_Modifications:
+    - target: {fileID: 2636557017752837272, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
+      objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_Name
       value: SlimeSize (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444871, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_RootOrder
@@ -10246,9 +10298,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803136590}
     m_Modifications:
+    - target: {fileID: 2636557017752837272, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
+      objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_Name
       value: SlimeSize (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444871, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_RootOrder
@@ -10677,9 +10737,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803136590}
     m_Modifications:
+    - target: {fileID: 2636557017752837272, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
+      objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_Name
       value: SlimeSize
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444871, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_RootOrder
@@ -10963,9 +11031,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 803136590}
     m_Modifications:
+    - target: {fileID: 2636557017752837272, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
+      objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_Name
       value: SlimeSize (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906941011326444868, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
+      propertyPath: m_TagString
+      value: SlimeSmall
       objectReference: {fileID: 0}
     - target: {fileID: 2906941011326444871, guid: 04f65491fe3600344b89a2f5608b8a98, type: 3}
       propertyPath: m_RootOrder

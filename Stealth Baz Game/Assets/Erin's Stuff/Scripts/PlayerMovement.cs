@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
+    public float slimed = 1;
+    public float slimetime = 600;
     public Light plight;
 
     public Transform groundCheck;
@@ -28,6 +30,17 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(slimed);
+        if (slimed > 1)
+        {
+            slimetime -= 1;
+            if (slimetime < 1)
+            {
+                slimed -= 1f;
+                slimetime = 600;
+                speed = speed / slimed;
+            }
+        }
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
@@ -58,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
         {
             print("space key was pressed");
             issprint = true;
-            speed = 18;
+            speed = 18 / slimed;
             SprintCollider.radius = 18;
             plight.innerSpotAngle = 120;
             plight.spotAngle = 170;
@@ -69,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
         {
             print("space key was  noT N ONFASONFO ASDNFO lOLpressed");
             issprint = false;
-            speed = 12;
+            speed = 12 / slimed;
             SprintCollider.radius = 6;
             plight.innerSpotAngle = 85;
             plight.spotAngle = 97;
@@ -79,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             iscrouch = true;
-            speed = 6;
+            speed = 6 / slimed;
 
             SprintCollider.radius = 0.2f;
             plight.innerSpotAngle = 10;
@@ -90,7 +103,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             iscrouch = true;
-            speed = 12;
+            speed = 12 / slimed;
             SprintCollider.radius = 6f;
 
             plight.spotAngle = 97;

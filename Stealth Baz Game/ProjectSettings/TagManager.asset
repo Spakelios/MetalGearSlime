@@ -9,6 +9,7 @@ TagManager:
   - Slime
   - PlayerBody
   - victory
+  - SlimeSmall
   layers:
   - Default
   - TransparentFX

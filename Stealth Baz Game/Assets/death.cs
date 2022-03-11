@@ -10,12 +10,18 @@ public class death : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Slime"))
+        if (other.gameObject.CompareTag("Slime"))
         {
             player.GetComponent<CharacterController>().enabled = false;
             player.transform.position = spawnpoint.transform.position;
             player.GetComponent<CharacterController>().enabled = true;
-            Debug.Log("at least it says something");
+            //  Debug.Log("at least it says something");
+        }
+        if (other.gameObject.CompareTag("SlimeSmall"))
+        {
+            player.GetComponent<PlayerMovement>().slimed += 1f;
+            player.GetComponent<PlayerMovement>().speed = player.GetComponent<PlayerMovement>().speed / player.GetComponent<PlayerMovement>().slimed;
+            //  Debug.Log("at least it says something");
         }
     }
 }
