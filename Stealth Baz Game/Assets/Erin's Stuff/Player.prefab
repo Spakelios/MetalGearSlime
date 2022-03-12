@@ -196,8 +196,8 @@ Light:
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 100
   m_Range: 16.97
-  m_SpotAngle: 97.34503
-  m_InnerSpotAngle: 85.34504
+  m_SpotAngle: 97
+  m_InnerSpotAngle: 85
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -347,6 +347,8 @@ MonoBehaviour:
   speed: 12
   gravity: -9.61
   jumpHeight: 0
+  slimed: 1
+  slimetime: 600
   plight: {fileID: 905169544862390357}
   groundCheck: {fileID: 905169544936402972}
   groundDistance: 0.4
