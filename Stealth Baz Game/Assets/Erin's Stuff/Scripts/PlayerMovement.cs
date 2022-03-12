@@ -89,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             iscrouch = true;
             speed = 6 / slimed;
@@ -100,7 +100,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if (Input.GetKeyUp(KeyCode.LeftControl))
+        if (Input.GetKeyUp(KeyCode.C))
         {
             iscrouch = true;
             speed = 12 / slimed;
